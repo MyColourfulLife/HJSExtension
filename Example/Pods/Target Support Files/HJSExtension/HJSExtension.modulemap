@@ -1,0 +1,6 @@
+framework module HJSExtension {
+  umbrella header "HJSExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

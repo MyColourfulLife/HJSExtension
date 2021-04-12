@@ -1,0 +1,16 @@
+PODS:
+  - HJSExtension (0.1.0)
+
+DEPENDENCIES:
+  - HJSExtension (from `../`)
+
+EXTERNAL SOURCES:
+  HJSExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJSExtension: f1037884f27ff9e38346ba774dc378bc9eff67fb
+
+PODFILE CHECKSUM: baeffe35d18f1ab674dce9c306333e251287ff98
+
+COCOAPODS: 1.10.1

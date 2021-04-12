@@ -20,9 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'HJSExtension'
 ```
 
-## Author
-
-huangjiashu1, huangjiashu1@bngrp.com
 
 ## License
 

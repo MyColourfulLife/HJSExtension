@@ -1,0 +1,22 @@
+{
+  "name": "HJSExtension",
+  "version": "0.1.0",
+  "summary": "A short description of HJSExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangjiashu1/HJSExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangjiashu1": "huangjiashu1@bngrp.com"
+  },
+  "source": {
+    "git": "https://github.com/huangjiashu1/HJSExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HJSExtension/Classes/**/*"
+}
