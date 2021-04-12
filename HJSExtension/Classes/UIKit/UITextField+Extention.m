@@ -10,7 +10,7 @@
 @implementation UITextField (Extention)
 - (void)textFitToLimitLength:(NSInteger)limitLength completion:(void (^__nullable)(BOOL isTrigger))completion {
     NSString *toBeString = self.text;
-    NSString *lang = [[UITextInputMode currentInputMode] primaryLanguage]; // 键盘输入模式
+    NSString *lang = self.textInputMode.primaryLanguage; // 键盘输入模式
     if ([lang hasPrefix:@"zh"]) {                                          // 中文输入法主要包含简体中文和繁体中文,zh表示中国的国家代码,简体和繁体均已zh开头。简体中文输入，包括简体拼音，健体五笔，简体手写
         UITextRange *selectedRange = [self markedTextRange];
         //获取高亮部分

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huangjiashu1;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 85GDEX4F59;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 84090FF48833A3C259422CD4 /* Pods-HJSExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85GDEX4F59;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJSExtension/HJSExtension-Prefix.pch";
 				INFOPLIST_FILE = "HJSExtension/HJSExtension-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = B44021EBA77C943DB107CB23 /* Pods-HJSExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85GDEX4F59;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJSExtension/HJSExtension-Prefix.pch";
 				INFOPLIST_FILE = "HJSExtension/HJSExtension-Info.plist";
