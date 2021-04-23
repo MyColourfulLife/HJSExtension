@@ -1,6 +1,6 @@
 {
   "name": "HJSExtension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "开发过程中常用的一些扩展方法，OC版本.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MyColourfulLife/HJSExtension.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MyColourfulLife/HJSExtension.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07CB673B1019166ACFA27FBD /* Pods_HJSExtension_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97ADB982C0E2ED3D714B23 /* Pods_HJSExtension_Tests.framework */; };
+		593EDC112632B22400F110A7 /* HJSTestLimitLengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EDC102632B22400F110A7 /* HJSTestLimitLengthViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		29088514337E0D6223FDFA32 /* HJSExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJSExtension.podspec; path = ../HJSExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D01E086E66734F9AB472845 /* Pods-HJSExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJSExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJSExtension_Tests/Pods-HJSExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		593EDC0F2632B22400F110A7 /* HJSTestLimitLengthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJSTestLimitLengthViewController.h; sourceTree = "<group>"; };
+		593EDC102632B22400F110A7 /* HJSTestLimitLengthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJSTestLimitLengthViewController.m; sourceTree = "<group>"; };
 		5D1DE05EB130EB20A712143B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HJSExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJSExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HJSViewController.h */,
 				6003F5A6195388D20070C39A /* HJSViewController.m */,
+				593EDC0F2632B22400F110A7 /* HJSTestLimitLengthViewController.h */,
+				593EDC102632B22400F110A7 /* HJSTestLimitLengthViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -369,6 +374,7 @@
 			files = (
 				6003F59E195388D20070C39A /* HJSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HJSViewController.m in Sources */,
+				593EDC112632B22400F110A7 /* HJSTestLimitLengthViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

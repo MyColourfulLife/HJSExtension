@@ -1,5 +1,5 @@
 PODS:
-  - HJSExtension (0.1.0)
+  - HJSExtension (0.1.1)
 
 DEPENDENCIES:
   - HJSExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HJSExtension: ed7432df461a35bf2489cde66683755646b1a6ac
+  HJSExtension: b22f4be7bc534921ff17d16b6de1f46c97a5b752
 
 PODFILE CHECKSUM: 11a6d867282799e026d71b47099de61bbb0e763b
 

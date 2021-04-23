@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## HJSExtension
 
-Copyright (c) 2021 huangjiashu1 <huangjiashu1@bngrp.com>
+Copyright (c) 2021 huangjiashu <1107660581@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
