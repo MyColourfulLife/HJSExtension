@@ -50,13 +50,13 @@
         }
         NSInteger offset = textFiled.text.length - weakSelf.limitLength;
         if (offset > 0) {
+            UITextRange *oldRange = textFiled.selectedTextRange;
             if (offset == 1) {// 理论上只有这一种情况
-                UITextRange *oldRange = textFiled.selectedTextRange;
                 [textFiled deleteBackward];
-                [textFiled setSelectedTextRange:oldRange];
             }else {
                 textFiled.text = [textFiled.text substringToIndex:weakSelf.limitLength];
             }
+            [textFiled setSelectedTextRange:oldRange];
         }
     };
     
