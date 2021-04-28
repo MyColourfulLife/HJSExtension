@@ -6,23 +6,41 @@
 //
 #import <UIKit/UIKit.h>
 #import "HJLimitInputHandler.h"
+#import <objc/runtime.h>
 
+#pragma mark Catetory for input
+/// 为输入控件增加扩展，将Handler作为属性，外界就不必强引用Handler了
+@interface UIView (InputHelper)
+@property (nonatomic, strong) HJLimitInputHandler *limitHandler;
+@end
+
+
+@implementation UIView (InputHelper)
+- (void)setLimitHandler:(HJLimitInputHandler *)limitHandler {
+    objc_setAssociatedObject(self, "limitHandler", limitHandler, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+- (HJLimitInputHandler *)limitHandler {
+    return objc_getAssociatedObject(self, "limitHandler");
+}
+@end
+
+#pragma mark - HJLimitInputHandler
 @interface HJLimitInputHandler ()
-@property (nonatomic, weak) NSObject<UITextInput>* textInput;
+@property (nonatomic, weak) UIView<UITextInput> *textInput;
 @property (nonatomic, assign) int limitLength;
 @end
 
 @implementation HJLimitInputHandler
-+(instancetype)handlerLimit:(id<UITextInput>)textInput withLength:(int)length {
-    return  [[self alloc]initWithHandlerLimit:textInput withLength:length];
++ (instancetype)handlerLimit:(UIView<UITextInput> *)textInput withLength:(int)length {
+    return [[self alloc] initWithHandlerLimit:textInput withLength:length];
 }
 
-- (instancetype)initWithHandlerLimit:(id<UITextInput>)textInput withLength:(int)length
-{
+- (instancetype)initWithHandlerLimit:(UIView<UITextInput> *)textInput withLength:(int)length {
     self = [super init];
     if (self) {
         _textInput = textInput;
         _limitLength = length;
+        _textInput.limitHandler = self;
         [self setup];
     }
     return self;
