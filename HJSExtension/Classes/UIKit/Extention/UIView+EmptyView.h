@@ -1,6 +1,6 @@
 //
 //  UIView+EmptyView.h
-//  BNClient
+//  
 //
 //  Created by Jiashu Huang on 2021/4/22.
 //  Copyright © 2021 Jiashu Huang. All rights reserved.

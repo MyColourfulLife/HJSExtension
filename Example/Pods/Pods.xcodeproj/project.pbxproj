@@ -16,6 +16,8 @@
 		4ED2D33EE8D68D29FC2AA3FC46ECDF48 /* UIImage+Extention.h in Headers */ = {isa = PBXBuildFile; fileRef = 60368B79ADF1DF48514347496683FDCF /* UIImage+Extention.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5633DD9AF71D9D9F0721F7763C53E674 /* UITextView+Extention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3123BF83BB074D3D8870FC3306F679DC /* UITextView+Extention.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F0E8C0C685B987587E5F44F82A127B /* HJSExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5007F3512C65CA1DCCE0AE0953AB256D /* HJSExtension-dummy.m */; };
+		59FED9582650F76300A4842A /* HJPhoneFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FED9552650F76300A4842A /* HJPhoneFormatter.m */; };
+		59FED9592650F76300A4842A /* HJPhoneTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FED9542650F76300A4842A /* HJPhoneTextFiled.m */; };
 		7DAB653137DDEED469FE326393AB35BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8E4C3029726E0BF35BF0149110E220CA /* HJLimitInputHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 535015B55EA88CC4A77FBF6F8247907F /* HJLimitInputHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DFB644F7831DBC018F07F1618BF115B /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = DB11663C2B3F3593D70F94880512609A /* UIView+Extention.m */; };
@@ -54,7 +56,7 @@
 		02B6B9F1DA7BBE6CDB6F9D638494F8C6 /* Pods-HJSExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJSExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0345B9467EC3F2CAD0D2F2323B0C0451 /* Pods-HJSExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJSExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		06EB04F5DDA379F62C783CE2F90FBD8B /* Pods-HJSExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJSExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		07053ECDA9EB316CE843CC638B03DFBB /* HJSExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HJSExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07053ECDA9EB316CE843CC638B03DFBB /* HJSExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJSExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B24881D34C4C8FEC7330E6E205B95B0 /* UITextField+Extention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extention.m"; sourceTree = "<group>"; };
 		0C545D8CCEF40FE6228A0C666658CF25 /* UIView+EmptyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyView.m"; sourceTree = "<group>"; };
 		0C8BE0E6756300F661C183E936083728 /* Pods-HJSExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJSExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,24 +71,28 @@
 		535015B55EA88CC4A77FBF6F8247907F /* HJLimitInputHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJLimitInputHandler.h; path = HJSExtension/Classes/UIKit/HJLimitInputHandler.h; sourceTree = "<group>"; };
 		53B81D4DFCFED0343C3B2117E4E4B528 /* Pods-HJSExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJSExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54C1ABFEE18DA6BDEC1FC55F00986DCD /* Pods-HJSExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJSExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		55FF3285FF302EEBAC8258B0F0CB227F /* Pods_HJSExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJSExtension_Tests.framework; path = "Pods-HJSExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF3285FF302EEBAC8258B0F0CB227F /* Pods_HJSExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJSExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		599628223709C8EBB3862A82550D4934 /* Pods-HJSExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJSExtension_Example.modulemap"; sourceTree = "<group>"; };
+		59FED9542650F76300A4842A /* HJPhoneTextFiled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJPhoneTextFiled.m; sourceTree = "<group>"; };
+		59FED9552650F76300A4842A /* HJPhoneFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJPhoneFormatter.m; sourceTree = "<group>"; };
+		59FED9562650F76300A4842A /* HJPhoneTextFiled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJPhoneTextFiled.h; sourceTree = "<group>"; };
+		59FED9572650F76300A4842A /* HJPhoneFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJPhoneFormatter.h; sourceTree = "<group>"; };
 		60368B79ADF1DF48514347496683FDCF /* UIImage+Extention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extention.h"; sourceTree = "<group>"; };
 		664D8B237CE81D012163BA561BAE6028 /* Pods-HJSExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJSExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66E276CD4E64E4F5D164EA0275888E13 /* HJLimitInputHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJLimitInputHandler.m; path = HJSExtension/Classes/UIKit/HJLimitInputHandler.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9517C725EAB15957601A85170775FF4F /* HJSExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJSExtension.debug.xcconfig; sourceTree = "<group>"; };
-		97DBD52BA22119D60531A4CAFE734BEC /* HJSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HJSExtension.framework; path = HJSExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97DBD52BA22119D60531A4CAFE734BEC /* HJSExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HJSExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A171932877A1250780EC882E0F79946F /* HJStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HJStackView.h; sourceTree = "<group>"; };
 		A2218604CFF72E12AD87217059623B9C /* UITextView+Extention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extention.m"; sourceTree = "<group>"; };
 		A594D376115A1712871AE2AED2ECC93A /* HJStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HJStackView.m; sourceTree = "<group>"; };
 		AA45044BC01BD71689A6782939FAABB5 /* UITextField+Extention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extention.h"; sourceTree = "<group>"; };
 		AC9DCFDD38E0568058DC4F277ADE721C /* HJSExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJSExtension-umbrella.h"; sourceTree = "<group>"; };
 		AE5D837CFC6F740D6B10F270F3E0CE69 /* HJSExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJSExtension-prefix.pch"; sourceTree = "<group>"; };
-		B3798351C4837BB8C0661016D2CFFA8F /* Pods_HJSExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HJSExtension_Example.framework; path = "Pods-HJSExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3798351C4837BB8C0661016D2CFFA8F /* Pods_HJSExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJSExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23E107F5CF4F2208C9F317F77594874 /* Pods-HJSExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJSExtension_Tests-Info.plist"; sourceTree = "<group>"; };
-		C413D14A74154E7784CA85219D0AA96B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C413D14A74154E7784CA85219D0AA96B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7DD312AE79B817C066DE16A8AE938A9 /* Pods-HJSExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJSExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB822E13E567F7036C1150DB8EB7BCEF /* Pods-HJSExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJSExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		CEAFE8924619608FB1130A92CFC35D8A /* Pods-HJSExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJSExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -95,7 +101,7 @@
 		E3C1847E04C17FD945B3D3310488EBCA /* HJSExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJSExtension-Info.plist"; sourceTree = "<group>"; };
 		E80CB5F8C6DF2EDE6EE629ED0A54CD3B /* Pods-HJSExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJSExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		E9CE87B57F55F2AC0CE18E055BCF955D /* UIView+Extention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
-		EC02F4CA32358DEAA83F8225BC3571D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC02F4CA32358DEAA83F8225BC3571D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +248,10 @@
 			children = (
 				535015B55EA88CC4A77FBF6F8247907F /* HJLimitInputHandler.h */,
 				66E276CD4E64E4F5D164EA0275888E13 /* HJLimitInputHandler.m */,
+				59FED9572650F76300A4842A /* HJPhoneFormatter.h */,
+				59FED9552650F76300A4842A /* HJPhoneFormatter.m */,
+				59FED9562650F76300A4842A /* HJPhoneTextFiled.h */,
+				59FED9542650F76300A4842A /* HJPhoneTextFiled.m */,
 				12B163FFAC2A52D956A2D19B46681388 /* Extention */,
 				A8069A0DB01A9F6221884DEBADD9CB9B /* Pod */,
 				53722E7741816952DC508ED8609FD52F /* Support Files */,
@@ -453,7 +463,9 @@
 				E9FD39F96B1135DFF939E783A7836132 /* UIImage+Extention.m in Sources */,
 				E2E71577AE92BC2CB6C4461DE0A1F01E /* UITextField+Extention.m in Sources */,
 				B580AB8E87EDDC24CC83D1939E25757C /* UITextView+Extention.m in Sources */,
+				59FED9592650F76300A4842A /* HJPhoneTextFiled.m in Sources */,
 				F99AC029D8341A936795BEF222D0653D /* UIView+EmptyView.m in Sources */,
+				59FED9582650F76300A4842A /* HJPhoneFormatter.m in Sources */,
 				9DFB644F7831DBC018F07F1618BF115B /* UIView+Extention.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,8 +675,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
